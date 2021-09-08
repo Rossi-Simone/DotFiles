@@ -1,0 +1,83 @@
+! Colorscheme
+#define gruvbox
+
+! Dwm Color
+#define color 	#005577
+! OneDark Colorscheme
+#ifdef gruvbox
+#define base0	#282828
+!#define base1	#cc241d
+!#define base2	#98971a
+!#define base3	#d79921
+!#define base4	#458588
+!#define base5	#b16286
+!#define base6	#689d6a
+!#define base7	#c8b9a4
+#define base1	base9
+#define base2	base10
+#define base3	base11
+#define base4	base12
+#define base5	base13
+#define base6	base14
+#define base7	base15
+#define base8	#504945
+#define base9	#fb4934
+#define base10	#b8bb26
+#define base11	#fabd2f
+#define base12	#83a598
+#define base13	#d3869b
+#define base14	#8ec07c
+#define base15	#ebdbb2
+#endif
+
+! Special
+st.background:		base0
+st.foreground:		base7
+st.cursorColor:		base7
+dwm.normbgcolor:	base0
+dwm.normfgcolor:	base7
+dwm.normbordercolor:	base8
+dwm.selbgcolor:		color
+dwm.selfgcolor:		base7
+dwm.selbordercolor:	color
+
+! Black
+st.color0:	base0
+st.color8:	base8
+
+! Red
+st.color1:	base1
+st.color9:	base9
+
+! Green
+st.color2:	base2
+st.color10:	base10
+
+! Yellow
+st.color3:	base3
+st.color11:	base11
+
+! Blue
+st.color4:	base4
+st.color12:	base12
+
+! Magenta
+st.color5:	base5
+st.color13:	base13
+
+! Cyan
+st.color6:	base6
+st.color14:	base14
+
+! White
+st.color7:	base7
+st.color15:	base15
+
+
+! Fonts
+st.font:	"Hack:pixelsize=18"
+!dwm.font:	"Hack:size=12"
+!dmenu.font:	"Hack:size=12"
+
+! Extra
+dwm.borderpx:	5

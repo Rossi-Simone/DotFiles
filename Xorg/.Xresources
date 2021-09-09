@@ -72,12 +72,3 @@ st.color14:	base14
 ! White
 st.color7:	base7
 st.color15:	base15
-
-
-! Fonts
-st.font:	"Hack:pixelsize=18"
-!dwm.font:	"Hack:size=12"
-!dmenu.font:	"Hack:size=12"
-
-! Extra
-dwm.borderpx:	5
